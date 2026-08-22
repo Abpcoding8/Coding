@@ -2,6 +2,8 @@ name: Build ConstructIQ APK
 on:
   push:
     branches: [arcsys-constructiq-test]
+  pull_request:
+    branches: [main]
   workflow_dispatch:
 jobs:
   build:
