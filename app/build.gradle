@@ -1,0 +1,16 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'com.arcsys.constructiq'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'com.arcsys.constructiq'
+        minSdk 26
+        targetSdk 35
+        versionCode 1
+        versionName '0.1.0-test'
+    }
+    buildTypes {
+        release { minifyEnabled false }
+    }
+}
